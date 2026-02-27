@@ -50,7 +50,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=chatwoot
+      - POSTGRES_DB=standalone_db
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=Password1234!
 
