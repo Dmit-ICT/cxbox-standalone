@@ -10,7 +10,7 @@ services:
         EXECJS_RUNTIME: 'Disabled'
         RAILS_ENV: 'production'
         RAILS_SERVE_STATIC_FILES: 'true'
-    image: chatwoot:production-custom
+    image: demeterict/cxbox-standalone:baseline
     env_file: .env
     volumes:
       - storage_data:/app/storage
