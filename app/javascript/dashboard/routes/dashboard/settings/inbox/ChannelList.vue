@@ -77,6 +77,18 @@ const channelList = computed(() => {
       description: t('INBOX_MGMT.ADD.AUTH.CHANNEL.INSTAGRAM.DESCRIPTION'),
       icon: 'i-woot-instagram',
     },
+    {
+      key: 'lazada',
+      title: t('INBOX_MGMT.ADD.AUTH.CHANNEL.LAZADA.TITLE'),
+      description: t('INBOX_MGMT.ADD.AUTH.CHANNEL.LAZADA.DESCRIPTION'),
+      icon: 'i-woot-lazada',
+    },
+    {
+      key: 'shopee',
+      title: t('INBOX_MGMT.ADD.AUTH.CHANNEL.SHOPEE.TITLE'),
+      description: t('INBOX_MGMT.ADD.AUTH.CHANNEL.SHOPEE.DESCRIPTION'),
+      icon: 'i-woot-shopee',
+    },
   ];
 
   if (hasTiktokConfigured.value) {

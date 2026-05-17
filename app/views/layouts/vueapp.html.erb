@@ -70,7 +70,9 @@
       }
     </script>
     <% end %>
-    <%= vite_client_tag %>
+    <% unless ENV.fetch('FRONTEND_URL', '').match?(%r{\Ahttps://(?!localhost|127\.0\.0\.1|0\.0\.0\.0)}) %>
+      <%= vite_client_tag %>
+    <% end %>
     <%= vite_javascript_tag @application_pack %>
   </head>
   <body class="text-slate-600">

@@ -426,6 +426,74 @@
           "SUBTITLE": "You have to configure the webhook URL in LINE application with the URL mentioned here."
         }
       },
+      "SHOPEE_CHANNEL": {
+        "TITLE": "Shopee Channel",
+        "DESC": "Integrate your Shopee shop and start supporting your customers.",
+        "CHANNEL_NAME": {
+          "LABEL": "Channel Name",
+          "PLACEHOLDER": "Please enter a channel name",
+          "ERROR": "This field is required"
+        },
+        "APP_PARTNER_ID": {
+          "LABEL": "App Partner Id",
+          "PLACEHOLDER": "Enter App Partner Id"
+        },
+        "APP_PARTNER_KEY": {
+          "LABEL": "App Partner Key",
+          "PLACEHOLDER": "Enter App Partner Key"
+        },
+        "SHOP_COUNTRY": {
+          "LABEL": "Shop Country",
+          "PLACEHOLDER": "-- Select Country --",
+          "OPTIONS": {
+            "THAILAND": "Thailand",
+            "SINGAPORE": "Singapore",
+            "MALAYSIA": "Malaysia",
+            "INDONESIA": "Indonesia",
+            "VIETNAM": "Vietnam",
+            "PHILIPPINES": "Philippines",
+            "TAIWAN": "Taiwan",
+            "BRAZIL": "Brazil",
+            "MEXICO": "Mexico",
+            "COLOMBIA": "Colombia",
+            "CHILE": "Chile",
+            "CHINESE_MAINLAND": "Chinese Mainland"
+          }
+        },
+        "SUBMIT_BUTTON": "Create Shopee Channel",
+        "API": {
+          "ERROR_MESSAGE": "We were not able to save the Shopee channel"
+        }
+      },
+      "LAZADA_CHANNEL": {
+        "TITLE": "Lazada Channel",
+        "DESC": "Integrate your Lazada shop and start supporting your customers.",
+        "CHANNEL_NAME": {
+          "LABEL": "Channel Name",
+          "PLACEHOLDER": "Please enter a channel name",
+          "ERROR": "This field is required"
+        },
+        "APP_PROFILE_KEY": {
+          "LABEL": "App Profile Key",
+          "PLACEHOLDER": "App Profile Key"
+        },
+        "APP_PROFILE_SECRET": {
+          "LABEL": "App Profile Secret",
+          "PLACEHOLDER": "App Profile Secret"
+        },
+        "APP_CHAT_KEY": {
+          "LABEL": "App Chat Key",
+          "PLACEHOLDER": "App Chat Key"
+        },
+        "APP_CHAT_SECRET": {
+          "LABEL": "App Chat Secret",
+          "PLACEHOLDER": "App Chat Secret"
+        },
+        "SUBMIT_BUTTON": "Create Lazada Channel",
+        "API": {
+          "ERROR_MESSAGE": "We were not able to save the Lazada channel"
+        }
+      },
       "TELEGRAM_CHANNEL": {
         "TITLE": "Telegram Channel",
         "DESC": "Integrate with Telegram channel and start supporting your customers.",
@@ -476,6 +544,14 @@
           "LINE": {
             "TITLE": "Line",
             "DESCRIPTION": "Integrate your Line channel"
+          },
+          "LAZADA": {
+            "TITLE": "Lazada",
+            "DESCRIPTION": "Integrate your Lazada shop"
+          },
+          "SHOPEE": {
+            "TITLE": "Shopee",
+            "DESCRIPTION": "Integrate your Shopee shop"
           },
           "INSTAGRAM": {
             "TITLE": "Instagram",
@@ -1118,6 +1194,8 @@
       "EMAIL": "Email",
       "TELEGRAM": "Telegram",
       "LINE": "Line",
+      "LAZADA": "Lazada",
+      "SHOPEE": "Shopee",
       "API": "API Channel",
       "INSTAGRAM": "Instagram",
       "TIKTOK": "TikTok",

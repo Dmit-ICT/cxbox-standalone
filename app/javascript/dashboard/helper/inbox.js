@@ -12,6 +12,8 @@ export const INBOX_TYPES = {
   INSTAGRAM: 'Channel::Instagram',
   TIKTOK: 'Channel::Tiktok',
   VOICE: 'Channel::Voice',
+  LAZADA: 'Channel::Lazada',
+  SHOPEE: 'Channel::Shopee',
 };
 
 export const TWILIO_CHANNEL_MEDIUM = {
@@ -31,6 +33,8 @@ const INBOX_ICON_MAP_FILL = {
   [INBOX_TYPES.INSTAGRAM]: 'i-ri-instagram-fill',
   [INBOX_TYPES.TIKTOK]: 'i-ri-tiktok-fill',
   [INBOX_TYPES.VOICE]: 'i-ri-phone-fill',
+  [INBOX_TYPES.LAZADA]: 'i-woot-lazada',
+  [INBOX_TYPES.SHOPEE]: 'i-woot-shopee',
 };
 
 const DEFAULT_ICON_FILL = 'i-ri-chat-1-fill';
@@ -47,6 +51,8 @@ const INBOX_ICON_MAP_LINE = {
   [INBOX_TYPES.INSTAGRAM]: 'i-woot-instagram',
   [INBOX_TYPES.VOICE]: 'i-woot-voice',
   [INBOX_TYPES.TIKTOK]: 'i-woot-tiktok',
+  [INBOX_TYPES.LAZADA]: 'i-woot-lazada',
+  [INBOX_TYPES.SHOPEE]: 'i-woot-shopee',
 };
 
 const DEFAULT_ICON_LINE = 'i-ri-chat-1-line';

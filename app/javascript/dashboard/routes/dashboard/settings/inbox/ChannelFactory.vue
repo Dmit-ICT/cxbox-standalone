@@ -8,6 +8,8 @@ import Email from './channels/Email.vue';
 import Sms from './channels/Sms.vue';
 import Whatsapp from './channels/Whatsapp.vue';
 import Line from './channels/Line.vue';
+import Lazada from './channels/Lazada.vue';
+import Shopee from './channels/Shopee.vue';
 import Telegram from './channels/Telegram.vue';
 import Instagram from './channels/Instagram.vue';
 import Tiktok from './channels/Tiktok.vue';
@@ -22,6 +24,8 @@ const channelViewList = {
   sms: Sms,
   whatsapp: Whatsapp,
   line: Line,
+  lazada: Lazada,
+  shopee: Shopee,
   telegram: Telegram,
   instagram: Instagram,
   tiktok: Tiktok,

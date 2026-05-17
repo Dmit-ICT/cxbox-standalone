@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_01_30_061021) do
+ActiveRecord::Schema[7.1].define(version: 2026_04_17_010000) do
   # These extensions should be enabled to support this database
   enable_extension "pg_stat_statements"
   enable_extension "pg_trgm"
@@ -468,6 +468,17 @@ ActiveRecord::Schema[7.1].define(version: 2026_01_30_061021) do
     t.index ["instagram_id"], name: "index_channel_instagram_on_instagram_id", unique: true
   end
 
+  create_table "channel_lazada", force: :cascade do |t|
+    t.integer "account_id", null: false
+    t.string "app_profile_key", null: false
+    t.string "app_profile_secret", null: false
+    t.string "app_chat_key", null: false
+    t.string "app_chat_secret", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["app_profile_key"], name: "index_channel_lazada_on_app_profile_key", unique: true
+  end
+
   create_table "channel_line", force: :cascade do |t|
     t.integer "account_id", null: false
     t.string "line_channel_id", null: false
@@ -476,6 +487,16 @@ ActiveRecord::Schema[7.1].define(version: 2026_01_30_061021) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["line_channel_id"], name: "index_channel_line_on_line_channel_id", unique: true
+  end
+
+  create_table "channel_shopee", force: :cascade do |t|
+    t.integer "account_id", null: false
+    t.string "app_partner_id", null: false
+    t.string "app_partner_key", null: false
+    t.string "shop_country", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["app_partner_id"], name: "index_channel_shopee_on_app_partner_id", unique: true
   end
 
   create_table "channel_sms", force: :cascade do |t|

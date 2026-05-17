@@ -44,6 +44,9 @@ if (isLibraryMode) {
 
 export default defineConfig({
   plugins: plugins,
+  server: {
+    allowedHosts: true,
+  },
   build: {
     rollupOptions: {
       output: {

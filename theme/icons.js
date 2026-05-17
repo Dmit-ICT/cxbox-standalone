@@ -160,6 +160,16 @@ export const icons = {
     width: 24,
     height: 24,
   },
+  lazada: {
+    body: `<g fill="none" stroke="currentColor"><path d="M7.5 9V7.25C7.5 4.90279 9.51472 3 12 3C14.4853 3 16.5 4.90279 16.5 7.25V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 9H18.5L19.75 19.25C19.8661 20.2114 19.1158 21 18.147 21H5.85302C4.88423 21 4.13389 20.2114 4.25 19.25L5.5 9Z" stroke-width="1.5" stroke-linejoin="round"/><path d="M10 13L11 15L14 11.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g>`,
+    width: 24,
+    height: 24,
+  },
+  shopee: {
+    body: `<g fill="none" stroke="currentColor"><path d="M8.5 9V7.25C8.5 5.17893 10.067 3.5 12 3.5C13.933 3.5 15.5 5.17893 15.5 7.25V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 9H18.5L19.75 19.25C19.8661 20.2114 19.1158 21 18.147 21H5.85302C4.88423 21 4.13389 20.2114 4.25 19.25L5.5 9Z" stroke-width="1.5" stroke-linejoin="round"/><path d="M10 13.5C10 14.3284 10.8954 15 12 15C13.1046 15 14 14.3284 14 13.5C14 12.6716 13.1046 12 12 12C10.8954 12 10 11.3284 10 10.5C10 9.67157 10.8954 9.5 12 9.5C13.1046 9.5 14 10.1716 14 11" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g>`,
+    width: 24,
+    height: 24,
+  },
   facebook: {
     body: `<g fill="none" stroke="currentColor"><path d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 20V12.889M12 12.889V10.2223C12 8.46581 13.2033 7.58775 15.1111 7.71966M12 12.889H14.6667M12 12.889H9.33333" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>`,
     width: 24,
